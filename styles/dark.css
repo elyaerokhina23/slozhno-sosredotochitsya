@@ -11,6 +11,10 @@
   --focus-title-color: var(--focus-title-dark-color, #db00ff);
   --background-image: url("../images/cover-image-dark.png");
   --decoration-visibility: block;
+  --theme-switch-color: var(--accent-dark-color, #ff0070);
+  --decor-text-color: var(--brand-dark-color, #000028);
+  --section-title-color: var(--accent-dark-color, #ff0070);
+  --border-opacity: var(--dark-border-opacity, #ff0070);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,5 +25,9 @@
     --focus-title-color: var(--focus-title-dark-color, #db00ff);
     --background-image: url("../images/cover-image-dark.png");
     --decoration-visibility: block;
+    --theme-switch-color: var(--accent-dark-color, #ff0070);
+    --decor-text-color: var(--brand-dark-color, #000028);
+    --section-title-color: var(--accent-dark-color, #ff0070);
+    --border-opacity: var(--dark-border-opacity, #ff0070);
   }
 }

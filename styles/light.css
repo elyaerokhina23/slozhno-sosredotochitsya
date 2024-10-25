@@ -12,6 +12,10 @@
   --focus-title-color: var(--focus-title-light-color, #ffc2e6);
   --background-image: url("../images/cover-image-light.png");
   --decoration-visibility: hidden;
+  --theme-switch-color: var(--text-light-color, #353430);
+  --decor-text-color: var(--text-light-color, #353430);
+  --section-title-color: var(--text-light-color, #353430);
+  --border-opacity: var(--light-border-opacity, #32312d);
 }
 
 @media (prefers-color-scheme: light) {
@@ -22,5 +26,9 @@
     --focus-title-color: var(--focus-title-light-color, #ffc2e6);
     --background-image: url("../images/cover-image-light.png");
     --decoration-visibility: hidden;
+    --theme-switch-color: var(--text-light-color, #353430);
+    --decor-text-color: var(--text-light-color, #353430);
+    --section-title-color: var(--text-light-color, #353430);
+    --border-opacity: var(--light-border-opacity, #32312d);
   }
 }
