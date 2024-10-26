@@ -143,8 +143,6 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 10px;
-}
-.section__concentration-problems {
   margin-block-end: 80px;
 }
 
@@ -195,7 +193,6 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin-block-end: 80px;
 }
 
 .question__decrease-concentration {
@@ -209,9 +206,6 @@
 }
 
 /* section 3 */
-.section__concentration-tips {
-  margin-block-end: 80px;
-}
 
 .tips-title {
   margin-block-end: 20px;
