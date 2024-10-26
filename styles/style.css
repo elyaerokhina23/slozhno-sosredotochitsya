@@ -139,10 +139,12 @@
 }
 
 /* section 1 */
-.section__concentration-problems {
+.section {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 10px;
+}
+.section__concentration-problems {
   margin-block-end: 80px;
 }
 
@@ -208,9 +210,6 @@
 
 /* section 3 */
 .section__concentration-tips {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 10px;
   margin-block-end: 60px;
 }
 
@@ -300,8 +299,8 @@
     gap: 20px;
   }
   .footer {
-    padding-inline: 204px;
-    padding-block: 463px;
+    padding-inline: clamp(0.8125rem, -10.5782rem + 48.6005vw, 12.75rem);
+    padding-block: clamp(17.875rem, 7.3192rem + 45.0382vw, 28.9375rem);
   }
 }
 
