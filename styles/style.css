@@ -210,7 +210,7 @@
 
 /* section 3 */
 .section__concentration-tips {
-  margin-block-end: 60px;
+  margin-block-end: 80px;
 }
 
 .tips-title {
@@ -223,6 +223,10 @@
 
 .section__concentration-tips .card {
   margin-block-end: 20px;
+}
+
+.section__concentration-tips .card:last-child {
+  margin-block-end: 0;
 }
 
 /* pictures section (4) */
@@ -351,7 +355,7 @@
   }
   .section__concentration-tips {
     grid-template-columns: none;
-    margin-block-end: 28px;
+    margin-block-end: 50px;
   }
   .pictures__section {
     gap: 10px;
