@@ -19,6 +19,6 @@
 
   --decoration-visibility: visible;
 
-  --dark-border-opacity: rgba(255, 0, 112, 0.6);
-  --light-border-opacity: rgba(53, 52, 48, 0.6);
+  --dark-border-opacity: rgba(255, 0, 112, 0.4);
+  --light-border-opacity: rgba(50, 49, 45, 0.4);
 }
