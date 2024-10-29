@@ -106,10 +106,11 @@
   right: 29px;
   inline-size: 9px;
   block-size: 9px;
+  visibility: var(--decoration-visibility);
 }
 
 .page__title {
-  font-size: clamp(7.25rem, 7.5rem, 9.813rem);
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   line-height: 82.5%;
   font-weight: 700;
   color: var(--focus-title-color);
@@ -302,6 +303,9 @@
 }
 
 @media (max-width: 576px) {
+  .page__title {
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  }
   .page__description {
     inline-size: 100%;
   }
@@ -364,6 +368,6 @@
   }
   .footer {
     min-block-size: 668px;
-    block-size: 688px;
+    block-size: 668px;
   }
 }
