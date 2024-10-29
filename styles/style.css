@@ -122,7 +122,7 @@
   color: var(--decor-text-color);
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.4625rem;
+  line-height: 1.463rem;
 }
 
 .page__description {
@@ -166,7 +166,7 @@
 
 .card__description {
   font-size: 18px;
-  line-height: 1.4625rem;
+  line-height: 1.463rem;
   color: var(--text-color);
 }
 
@@ -310,8 +310,8 @@
     inline-size: 100%;
   }
   .main {
-    padding-inline: 10px;
     margin-block: 40px;
+    padding-inline: 10px;
   }
   .section {
     margin-block-end: 50px;
@@ -345,7 +345,7 @@
   .header {
     padding: 10px;
     min-block-size: 668px;
-    block-size: 100%;
+    block-size: 668px;
   }
   .header .page__title {
     margin-inline-start: -1px;
